@@ -1,0 +1,146 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #444;
+}
+
+
+.container
+{
+    padding: 20px;
+    
+}
+h1
+{
+    font-size: 50px;
+}
+
+#container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444;
+}
+
+/*Estilos para o menu de navegação*/
+
+#menu_azul
+{
+    margin-bottom: 20px;
+}
+
+#menu_azul a
+{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+#menu_azul a:hover
+{
+    text-decoration: underline;
+    background-color: #5D3FD3;
+}
+
+#menu_azul a img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.image_text_wrapper
+{
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    font-size: 20px;
+}
+
+img
+{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.text_content
+{
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+p
+{
+    text-align: justify;
+}
+
+/*Estilos para a tabela*/
+
+table   
+{
+    width: 100%;
+    border: 1px solid #5D3FD3;
+    margin-top: 20px;
+}
+
+caption
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+thead
+{
+    background-color: #292929;
+    color: #fff;
+}
+
+th, td
+{
+    border: 1px solid #000;
+    padding: 8px;
+    font-size: 20px;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: rgba(229, 229, 229, 0.5);
+}
+
+tbody tr:hover
+{
+    background-color: #5D3FD3;
+    color: white;
+    font-weight: bold;
+}
+
+footer
+{
+    background-color: #555;
+    margin-top: 20px;
+}
+
+.social_links,a
+{
+    margin-right: 10px;
+}
+
+.social_links i
+{
+    font-size: 24px;
+    color: white;
+    margin-top: 15px;
+}

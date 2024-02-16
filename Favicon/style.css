@@ -1,0 +1,21 @@
+/*Estilos Básicos para todo o corpo da página*/
+body{
+    background-color: #c0c0c0;/*Define a cor de fundo*/
+    background-image: url("img/dia.png");/*Define a Imagem de Fundo*/
+    background-size: cover;/*Faz a imagem de fundo cobrir toda a janela*/
+    background-position: top;/*Centraliza a imagem de fundo*/
+    background-repeat: no-repeat;/*Garante que a imagem de fundo não se repita*/
+    font-family: Arial, Helvetica, sans-serif;/*Define a Fonte a ser utilizada*/
+}
+
+/*Estilos para o Tema Noturno*/
+body.night-theme{
+    background-image: url("img/noite.png");
+}
+
+/*Estilos comuns para: Header, Main e Footer*/
+header, main, footer{
+    padding: 20px; /*Espaçamento Interno*/
+    text-align: center; /*Centralizar o Texto*/
+    background-color: rgba(255, 255, 255, 0.6);
+}
