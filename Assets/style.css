@@ -10,7 +10,6 @@ body
     background-color: #444;
 }
 
-
 .container
 {
     padding: 20px;
@@ -27,33 +26,44 @@ h1
     margin: 0 auto;
     padding: 20px;
     background-color: #444;
+    border-radius: 5px;
+
 }
 
 /*Estilos para o menu de navegação*/
 
-#menu_azul
+.menu_blue, .menu_green, .menu_red
 {
     margin-bottom: 20px;
 }
 
-#menu_azul a
+.menu_blue a, .menu_green a, .menu_red a
 {
     margin-right: 15px;
     text-decoration: none;
     color: #000;
-    background-color: aqua;
+    background-color: #003366;
     padding: 10px;
     border-radius: 20px;
-    
 }
 
-#menu_azul a:hover
+.menu_green a
+{
+    background-color:#479b60;
+}
+
+.menu_red a
+{
+    background-color: #960000;
+}
+.menu_blue a:hover, .menu_green a:hover, .menu_red a:hover
 {
     text-decoration: underline;
-    background-color: #5D3FD3;
+    background-color: black;
+    color: white;
 }
 
-#menu_azul a img
+.menu_azul a img, .menu_green a img
 {
     width: 80px;
     height: 80px;
@@ -92,9 +102,16 @@ p
 table   
 {
     width: 100%;
-    border: 1px solid #5D3FD3;
+    border: 1px solid black;
     margin-top: 20px;
 }
+
+.table table
+{
+    border: 1px solid black;
+}
+
+
 
 caption
 {
@@ -122,14 +139,19 @@ tbody tr:nth-child(even)
 
 tbody tr:hover
 {
-    background-color: #5D3FD3;
-    color: white;
-    font-weight: bold;
+    background-color: #fff;
+    color: black;
+}
+
+.table
+tbody tr :hover
+{
+    background-color: whitesmoke;
 }
 
 footer
 {
-    background-color: #555;
+    background-color: #444;
     margin-top: 20px;
 }
 
@@ -144,3 +166,39 @@ footer
     color: white;
     margin-top: 15px;
 }
+
+#topo
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#topo a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
+#topo a:hover
+{
+    color: white;
+}
+
+.bg_green
+{
+    background-color: #317746;
+    color:  black;
+}
+
+.bg_blue
+{
+    background-color: #003366;
+}
+
+.bg_red 
+{
+    background-color: #960000;
+}
+
